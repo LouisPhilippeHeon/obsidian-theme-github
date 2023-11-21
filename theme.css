@@ -1218,4 +1218,121 @@ select:focus, .dropdown:focus {
     border-radius: 6px;
     color: var(--text-normal);
 }
-.nav-buttons-container {  justify-content: space-around;  height: 100%;  margin: 0 auto;  height: var(--header-height);}.nav-header {  border-bottom: var(--divider-width) solid var(--divider-color);  height: var(--header-height);  padding: 0;}.mod-root > .nav-folder-title {  display: none;}.nav-files-container {  padding: 12px;}div[aria-label="Create new drawing"], div[aria-label="Aide"], div[aria-label="Ouvrir un autre coffre"], div [aria-label="Ouvrir la palette de commandes"] {  display: none;}.workspace-ribbon {  grid-area: ribbon;  margin-top: 0 !important;  width: 100%;  flex-direction: row;  border-top: var(--divider-width) solid var(--divider-color);}.side-dock-settings {  margin: 0;  width: 17%;}.side-dock-actions {  width: 83%;  justify-content: space-between;}.workspace-ribbon > div {  flex-direction: row;}.workspace-split.mod-horizontal.mod-left-split {  grid-area: files;}.workspace-split.mod-vertical.mod-root {  grid-area: main;}.mod-right-split {  grid-area: right-menu;}.workspace {  display: grid;  grid-template-rows: auto;  grid-template-columns: auto 1fr auto;  grid-template-rows: auto 40px;  grid-template-areas:    "files main right-menu"    "ribbon main right-menu";}.mod-left-split > .mod-top > .workspace-tab-header-container {  transform: translateX(40px);}/* TODO 10 px pour l'autre */.mod-top-left-space > .workspace-tab-header-container {  transform: translateX(30px);}.workspace-ribbon.is-collapsed {  border: none;}.workspace-ribbon.is-collapsed  > div:not(.sidebar-toggle-button ) {  display: none;}.page {  margin-bottom: 0 !important;}.embed-container.youtube {  max-width: 100%;}.embed-container.twitter {  margin: 0 auto;}.workspace-split.mod-left-split > .workspace-leaf-resize-handle, .workspace-split.mod-right-split > .workspace-leaf-resize-handle {  top: 40px;}/* Masquer la barre de menu du coin en bas à droite lorsque l'on est dans la vue du graphique */.status-bar-item.plugin-cmenu-plugin {   display: none;}.status-bar {    min-height: none;    padding: 0;}.status-bar-item {    margin: 5px 0;}.status-bar-item:first-child {    margin-left: 5px;}.status-bar-item:nth-last-child(2) {    margin-right: 5px !important;}
+
+.nav-buttons-container {
+  justify-content: space-around;
+  height: 100%;
+  margin: 0 auto;
+  height: var(--header-height);
+}
+
+.nav-header {
+  border-bottom: var(--divider-width) solid var(--divider-color);
+  height: var(--header-height);
+  padding: 0;
+}
+
+.mod-root > .nav-folder-title {
+  display: none;
+}
+
+.nav-files-container {
+  padding: 12px;
+}
+
+div[aria-label="Create new drawing"], div[aria-label="Aide"], div[aria-label="Ouvrir un autre coffre"], div [aria-label="Ouvrir la palette de commandes"] {
+  display: none;
+}
+
+.workspace-ribbon {
+  grid-area: ribbon;
+  margin-top: 0 !important;
+  width: 100%;
+  flex-direction: row;
+  border-top: var(--divider-width) solid var(--divider-color);
+}
+
+.side-dock-settings {
+  margin: 0;
+  width: 17%;
+}
+
+.side-dock-actions {
+  width: 83%;
+  justify-content: space-between;
+}
+
+.workspace-ribbon > div {
+  flex-direction: row;
+}
+
+.workspace-split.mod-horizontal.mod-left-split {
+  grid-area: files;
+}
+.workspace-split.mod-vertical.mod-root {
+  grid-area: main;
+}
+.mod-right-split {
+  grid-area: right-menu;
+}
+
+.workspace {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 40px;
+  grid-template-areas:
+    "files main right-menu"
+    "ribbon main right-menu";
+}
+
+.mod-left-split > .mod-top > .workspace-tab-header-container {
+  transform: translateX(40px);
+}
+/* TODO 10 px pour l'autre */
+
+.mod-top-left-space > .workspace-tab-header-container {
+  transform: translateX(30px);
+}
+
+.workspace-ribbon.is-collapsed {
+  border: none;
+}
+.workspace-ribbon.is-collapsed  > div:not(.sidebar-toggle-button ) {
+  display: none;
+}
+
+.page {
+  margin-bottom: 0 !important;
+}
+
+.embed-container.youtube {
+  max-width: 100%;
+}
+
+.embed-container.twitter {
+  margin: 0 auto;
+}
+
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle, .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+  top: 40px;
+}
+/* Masquer la barre de menu du coin en bas à droite lorsque l'on est dans la vue du graphique */
+.status-bar-item.plugin-cmenu-plugin {
+   display: none;
+}
+.status-bar {
+    min-height: none;
+    padding: 0;
+}
+.status-bar-item {
+    margin: 5px 0;
+}
+
+.status-bar-item:first-child {
+    margin-left: 5px;
+}
+
+.status-bar-item:nth-last-child(2) {
+    margin-right: 5px !important;
+}
